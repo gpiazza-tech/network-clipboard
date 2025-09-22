@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Clipboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="droparea">
+            <i class="far fa-images"></i>
+            <p>File Clipboard</p>
+            <p><small>Up to 20 images, No max file size.</small></p>
+        </section>
+        <div class="drag-n-drop-button-container">
+            <button class="download-button">Download</button>
+            <label for="file-upload" class="custom-file-upload">Upload</label>
+            <input id="file-upload" type="file" />
+        </div>
+        <textarea rows="5" cols="50" placeholder="Text Clipboard"></textarea>
+        <button class="textarea-button">Copy to Clipboard</button>
+    </main>
+</body>
+</html>
